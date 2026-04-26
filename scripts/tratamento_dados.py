@@ -46,7 +46,7 @@ def classificar_condicao(descricao, chuva, umidade, nuvens):
         "muitas nuvens",
         "encoberto"
     ]):
-        return "TEMPO NUBLADO"
+        return "TEMPO NUBLADO"    
 
     return "SEM CHUVA"
 

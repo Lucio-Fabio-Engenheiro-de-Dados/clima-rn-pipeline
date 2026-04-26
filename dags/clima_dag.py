@@ -35,7 +35,7 @@ with DAG(
 
     tarefa_alerta = PythonOperator(
         task_id="enviar_alerta_telegram",
-        python_callable=enviar_telegram
+        python_callable=enviar_telegram   
     )
 
     tarefa_coleta >> tarefa_exportacao >> tarefa_alerta

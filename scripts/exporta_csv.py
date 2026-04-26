@@ -27,7 +27,7 @@ def exportar_csv():
             data_coleta
         FROM clima_dados
         WHERE DATE(data_coleta) = CURDATE()
-        ORDER BY cidade, data_coleta
+        ORDER BY cidade, data_coleta    
     """
 
     df = pd.read_sql(query, conexao)

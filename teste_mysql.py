@@ -21,4 +21,4 @@ try:
     conexao.close()
 
 except Exception as e:
-    print("❌ Erro ao conectar:", e)
+    print("❌ Erro ao conectar:", e)     

@@ -227,3 +227,9 @@ https://www.linkedin.com/in/lucio-fabio-barbosa-de-lima
 ## 📌 Status
 
 🚧 Em evolução – projeto ativo para portfólio de Engenharia de Dados
+
+## 📘 Guia para iniciantes
+
+Veja o passo a passo completo de como subir o projeto:
+
+👉 [Guia de como subir o projeto](./docs/GUIA_SUBIR_PROJETO.md)

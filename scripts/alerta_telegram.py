@@ -23,4 +23,4 @@ def enviar_telegram():
         print(resposta.text)
 
 if __name__ == "__main__":
-    enviar_telegram()
+    enviar_telegram()    
