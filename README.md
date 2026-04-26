@@ -14,8 +14,6 @@ O **Clima RN** é um pipeline de dados que coleta informações meteorológicas 
 
 ![Arquitetura do Pipeline Clima RN](./arquitetura_clima_rn.png)
 
-image_group{"aspect_ratio":"16:9","query":["weather data pipeline airflow mysql docker architecture diagram labeled","etl pipeline airflow docker mysql simple architecture arrows","data engineering pipeline api airflow mysql diagram clean","openweather api airflow mysql docker pipeline diagram"],"num_per_query":1}
-
 ### 🔎 Descrição da Arquitetura
 
 O fluxo do sistema segue o padrão moderno de engenharia de dados:
