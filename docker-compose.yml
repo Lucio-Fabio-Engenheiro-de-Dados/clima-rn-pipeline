@@ -1,0 +1,26 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: clima_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: clima
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    ports:
+      - "3307:3306"
+
+  airflow:
+    image: apache/airflow:2.8.1
+    container_name: airflow_clima
+    depends_on:
+      - mysql
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__EXECUTOR: "SequentialExecutor"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./:/opt/airflow/project
+    ports:
+      - "8080:8080"
+    command: bash -c "airflow standalone"
