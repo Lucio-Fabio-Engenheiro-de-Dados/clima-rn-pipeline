@@ -7,7 +7,7 @@ Este guia foi criado para ajudar iniciantes a subir um projeto local para o GitH
 ## 📌 Pré-requisitos
 
 Antes de começar, verifique:
-
+  
 * Git instalado no computador
 * GitHub Desktop instalado
 * Conta no GitHub
