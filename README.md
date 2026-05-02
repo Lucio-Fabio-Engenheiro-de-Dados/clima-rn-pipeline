@@ -12,7 +12,7 @@ O **Clima RN** é um pipeline de dados que coleta informações meteorológicas 
 
 ## 🧠 Arquitetura do Sistema
 
-![Arquitetura do Pipeline Clima RN](./arquitetura_clima_rn.png)
+![Arquitetura do Pipeline Clima RN](docs/arquitetura_clima_rn.png)
 
 ### 🔎 Descrição da Arquitetura
 
@@ -87,10 +87,10 @@ Campos armazenados:
 * latitude
 * longitude
 * temperatura
-* descrição
+* descricao
 * umidade
 * nuvens
-* chuva
+* probabilidade_chuva
 * data_coleta
 
 ---
@@ -187,6 +187,11 @@ Acesse:
 ```
 http://localhost:8080
 ```
+
+---
+## 📚 Documentação
+
+- 📘 [Dicionário de Dados](docs/DICIONARIO_DADOS.md)
 
 ---
 

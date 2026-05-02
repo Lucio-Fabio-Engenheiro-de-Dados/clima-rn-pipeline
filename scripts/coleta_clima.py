@@ -103,4 +103,4 @@ def coletar_clima():
     print("Coleta finalizada.")
 
 if __name__ == "__main__":
-    coletar_clima()     
+    coletar_clima()
