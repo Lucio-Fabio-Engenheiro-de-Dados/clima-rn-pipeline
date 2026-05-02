@@ -625,14 +625,5 @@ Algumas melhorias futuras para o projeto:
 
 ---
 
-Para usar no GitHub:
 
-1. Crie um arquivo chamado `DICIONARIO_DADOS.md`
-2. Cole todo esse conteúdo dentro dele
-3. Salve
-4. Faça o commit pelo GitHub Desktop ou VSCode
-
-No seu `README.md`, você pode adicionar este link:
-
-📘 [Dicionário de Dados do Projeto](DICIONARIO_DADOS.md)
 
