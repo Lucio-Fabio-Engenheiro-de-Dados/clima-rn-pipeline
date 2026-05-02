@@ -9,6 +9,15 @@ Sistema completo de Engenharia de Dados para coleta, processamento e armazenamen
 O **Clima RN** é um pipeline de dados que coleta informações meteorológicas em tempo real utilizando API externa, processa os dados e armazena em banco relacional, permitindo análises e geração de alertas.
 
 ---
+## 📚 Documentação
+
+- 📘 [Dicionário de Dados](docs/DICIONARIO_DADOS.md)
+
+- ⭐ [Modelo Estrela (Data Warehouse)](docs/MODELO_ESTRELA.md)
+
+- 🚨 [Data Mart de Alertas Climáticos](docs/DATA_MART_ALERTAS.md)
+
+---
 
 ## 🧠 Arquitetura do Sistema
 
@@ -188,14 +197,6 @@ Acesse:
 http://localhost:8080
 ```
 
----
-## 📚 Documentação
-
-- 📘 [Dicionário de Dados](docs/DICIONARIO_DADOS.md)
-
-- ⭐ [Modelo Estrela (Data Warehouse)](docs/MODELO_ESTRELA.md)
-
-- 🚨 [Data Mart de Alertas Climáticos](docs/DATA_MART_ALERTAS.md)
 
 ---
 
