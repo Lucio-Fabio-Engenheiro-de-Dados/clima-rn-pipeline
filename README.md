@@ -193,6 +193,10 @@ http://localhost:8080
 
 - 📘 [Dicionário de Dados](docs/DICIONARIO_DADOS.md)
 
+- ⭐ [Modelo Estrela (Data Warehouse)](docs/MODELO_ESTRELA.md)
+
+- 🚨 [Data Mart de Alertas Climáticos](docs/DATA_MART_ALERTAS.md)
+
 ---
 
 ## 📊 Possíveis Expansões
